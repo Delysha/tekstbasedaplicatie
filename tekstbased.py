@@ -402,6 +402,8 @@ def vraag21():
         print ("okay byee")
     else:
         print("antwoord met ja of nee")
+        vraag21()
+
 start()  
 
 
